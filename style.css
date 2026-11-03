@@ -1,0 +1,56 @@
+body {
+  background: #ffe4ef;
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  margin: 0;
+}
+
+.card {
+  background: white;
+  max-width: 400px;
+  width: 100%;
+  padding: 30px;
+  border-radius: 20px;
+  text-align: center;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+}
+
+h1 {
+  color: #e7548a;
+}
+
+.subtitle {
+  color: #888;
+  margin-top: -10px;
+}
+
+.biodata {
+  text-align: left;
+  background: #fff0f6;
+  padding: 15px;
+  border-radius: 12px;
+  margin: 20px 0;
+}
+
+.btn {
+  display: block;
+  background: #e7548a;
+  color: white;
+  text-decoration: none;
+  padding: 12px;
+  border-radius: 10px;
+  margin: 10px 0;
+  font-weight: bold;
+}
+
+.btn.wa {
+  background: #25D366;
+}
+
+.footer {
+  color: #aaa;
+  font-size: 13px;
+  margin-top: 20px;
+}

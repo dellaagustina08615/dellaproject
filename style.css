@@ -1,56 +1,13 @@
-body {
-  background: #ffe4ef;
-  font-family: Arial, sans-serif;
-  display: flex;
-  justify-content: center;
-  padding: 20px;
-  margin: 0;
-}
-
-.card {
-  background: white;
-  max-width: 400px;
-  width: 100%;
-  padding: 30px;
-  border-radius: 20px;
-  text-align: center;
-  box-shadow: 0 10px 25px rgba(0,0,0,0.1);
-}
-
-h1 {
-  color: #e7548a;
-}
-
-.subtitle {
-  color: #888;
-  margin-top: -10px;
-}
-
-.biodata {
-  text-align: left;
-  background: #fff0f6;
-  padding: 15px;
-  border-radius: 12px;
-  margin: 20px 0;
-}
-
-.btn {
-  display: block;
-  background: #e7548a;
-  color: white;
-  text-decoration: none;
-  padding: 12px;
-  border-radius: 10px;
-  margin: 10px 0;
-  font-weight: bold;
-}
-
-.btn.wa {
-  background: #25D366;
-}
-
-.footer {
-  color: #aaa;
-  font-size: 13px;
-  margin-top: 20px;
-}
+body { font-family: 'Segoe UI', Arial, sans-serif; background: #fff5f7; margin: 0; padding: 20px; }
+.card { background: white; max-width: 520px; margin: auto; border-radius: 25px; overflow: hidden; box-shadow: 0 10px 30px rgba(255, 105, 180, 0.15); }
+.header { background: linear-gradient(135deg, #ff6b9d, #a855f7); color: white; padding: 30px 25px; text-align: center; }
+.header h1 { margin: 0; font-size: 27px; }
+.header p { margin: 8px 0 0 0; opacity: 0.9; }
+.emoji-besar { font-size: 45px; }
+.isi { padding: 25px; }
+h2 { color: #d63384; font-size: 19px; margin-top: 25px; }
+.box-info { background: #fff0f5; padding: 15px; border-radius: 15px; }
+.box-info p { margin: 8px 0; }
+.skill { display: inline-block; background: #f3e8ff; color: #7e22ce; border: 1px solid #e9d5ff; padding: 7px 15px; border-radius: 20px; margin: 4px 4px 4px 0; font-size: 14px; font-weight: bold; }
+.btn { display: block; text-align: center; background: linear-gradient(135deg, #ff6b9d, #a855f7); color: white; text-decoration: none; padding: 13px; border-radius: 15px; margin-top: 20px; font-weight: bold; }
+.footer { text-align: center; color: #aaa; font-size: 13px; padding-bottom: 20px; }
